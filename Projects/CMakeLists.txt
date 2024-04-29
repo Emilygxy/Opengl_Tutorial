@@ -28,9 +28,10 @@ include_directories(
 )
 
 #收集文件
-file(GLOB SOURCES ${CMAKE_CURRENT_SOURCE_DIR}/source/*.cpp)
-file(GLOB SOURCES ${CMAKE_CURRENT_SOURCE_DIR}/source/*.c)
-file(GLOB HEADERS ${CMAKE_CURRENT_SOURCE_DIR}/include/*.h)
+file(GLOB SOURCES ${CMAKE_CURRENT_SOURCE_DIR}/source/*.cpp 
+				  ${CMAKE_CURRENT_SOURCE_DIR}/source/*.c)
+file(GLOB HEADERS ${CMAKE_CURRENT_SOURCE_DIR}/include/common/*.h 
+				  ${CMAKE_CURRENT_SOURCE_DIR}/include/*.h)
 
 # add_library(TinyRenderer SHARED ${SOURCES})  ## dll
 add_library(TinyRenderer STATIC ${SOURCES})  ## lib
