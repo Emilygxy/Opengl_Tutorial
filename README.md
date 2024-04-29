@@ -1,2 +1,6 @@
-# Opengl_Tutorial
-Source code for opengl-tutorial:
+
+## Souce WebSite
+https://www.opengl-tutorial.org/
+
+## CMake File
+The files is for windows build.

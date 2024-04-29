@@ -1,0 +1,5 @@
+﻿  Building Custom Rule E:/MyOwn/CMakeProjects/OpenGLTest/OpenGL/Origin/glfw-3.3.9/tests/CMakeLists.txt
+  cursor.c
+  glad_gl.c
+  Generating Code...
+  cursor.vcxproj -> E:\MyOwn\CMakeProjects\OpenGLTest\OpenGL\Origin\glfw-3.3.9\build\tests\Debug\cursor.exe

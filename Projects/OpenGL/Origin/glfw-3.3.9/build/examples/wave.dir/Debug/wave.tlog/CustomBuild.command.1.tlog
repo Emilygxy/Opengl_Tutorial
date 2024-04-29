@@ -1,0 +1,10 @@
+^E:\MYOWN\CMAKEPROJECTS\OPENGLTEST\OPENGL\ORIGIN\GLFW-3.3.9\EXAMPLES\CMAKELISTS.TXT
+setlocal
+D:\SolftWareInstall\CMake\bin\cmake.exe -SE:/MyOwn/CMakeProjects/OpenGLTest/OpenGL/Origin/glfw-3.3.9 -BE:/MyOwn/CMakeProjects/OpenGLTest/OpenGL/Origin/glfw-3.3.9/build --check-stamp-file E:/MyOwn/CMakeProjects/OpenGLTest/OpenGL/Origin/glfw-3.3.9/build/examples/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3A7B154F-055E-3313-A115-C561F99D805B}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\MyOwn\CMakeProjects\OpenGLTest\OpenGL\Origin\glfw-3.3.9\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/MyOwn/CMakeProjects/OpenGLTest/OpenGL/Origin/glfw-3.3.9/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\SolftWareInstall\CMake\bin\cmake.exe -SE:/MyOwn/CMakeProjects/OpenGLTest/OpenGL/Origin/glfw-3.3.9 -BE:/MyOwn/CMakeProjects/OpenGLTest/OpenGL/Origin/glfw-3.3.9/build --check-stamp-file E:/MyOwn/CMakeProjects/OpenGLTest/OpenGL/Origin/glfw-3.3.9/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeCCompiler.cmake.in;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeCCompilerABI.c;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeCompilerIdDetection.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeDependentOption.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeDetermineCCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeDetermineCompileFeatures.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeDetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerABI.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerId.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeDetermineRCCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeDetermineSystem.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeFindBinUtils.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakePackageConfigHelpers.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeParseImplicitLinkInfo.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeRCCompiler.cmake.in;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeSystem.cmake.in;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeTestCCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeTestCompilerCommon.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeTestRCCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CheckIncludeFile.c.in;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CheckLibraryExists.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\IntelClang-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\IntelDPCPP-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\TI-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CompilerId\VS-10.vcxproj.in;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\FindDoxygen.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\FindThreads.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\GNUInstallDirs.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Internal\CheckSourceCompiles.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Internal\FeatureTesting.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\WriteBasicConfigVersionFile.cmake;E:\MyOwn\CMakeProjects\OpenGLTest\OpenGL\Origin\glfw-3.3.9\build\CMakeFiles\3.19.0\CMakeCCompiler.cmake;E:\MyOwn\CMakeProjects\OpenGLTest\OpenGL\Origin\glfw-3.3.9\build\CMakeFiles\3.19.0\CMakeRCCompiler.cmake;E:\MyOwn\CMakeProjects\OpenGLTest\OpenGL\Origin\glfw-3.3.9\build\CMakeFiles\3.19.0\CMakeSystem.cmake;E:\MyOwn\CMakeProjects\OpenGLTest\OpenGL\Origin\glfw-3.3.9\cmake_uninstall.cmake.in;E:\MyOwn\CMakeProjects\OpenGLTest\OpenGL\Origin\glfw-3.3.9\src\glfw3.pc.in;E:\MyOwn\CMakeProjects\OpenGLTest\OpenGL\Origin\glfw-3.3.9\src\glfw3Config.cmake.in;E:\MyOwn\CMakeProjects\OpenGLTest\OpenGL\Origin\glfw-3.3.9\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\MyOwn\CMakeProjects\OpenGLTest\OpenGL\Origin\glfw-3.3.9\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/MyOwn/CMakeProjects/OpenGLTest/OpenGL/Origin/glfw-3.3.9/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\SolftWareInstall\CMake\bin\cmake.exe -SE:/MyOwn/CMakeProjects/OpenGLTest/OpenGL/Origin/glfw-3.3.9 -BE:/MyOwn/CMakeProjects/OpenGLTest/OpenGL/Origin/glfw-3.3.9/build --check-stamp-file E:/MyOwn/CMakeProjects/OpenGLTest/OpenGL/Origin/glfw-3.3.9/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeCCompiler.cmake.in;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeCCompilerABI.c;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeCompilerIdDetection.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeDependentOption.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeDetermineCCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeDetermineCompileFeatures.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeDetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerABI.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerId.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeDetermineRCCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeDetermineSystem.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeFindBinUtils.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakePackageConfigHelpers.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeParseImplicitLinkInfo.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeRCCompiler.cmake.in;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeSystem.cmake.in;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeTestCCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeTestCompilerCommon.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeTestRCCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CheckIncludeFile.c.in;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CheckLibraryExists.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\IntelClang-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\IntelDPCPP-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\TI-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CompilerId\VS-10.vcxproj.in;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\FindDoxygen.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\FindThreads.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\GNUInstallDirs.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Internal\CheckSourceCompiles.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Internal\FeatureTesting.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\WriteBasicConfigVersionFile.cmake;E:\MyOwn\CMakeProjects\OpenGLTest\OpenGL\Origin\glfw-3.3.9\build\CMakeFiles\3.19.0\CMakeCCompiler.cmake;E:\MyOwn\CMakeProjects\OpenGLTest\OpenGL\Origin\glfw-3.3.9\build\CMakeFiles\3.19.0\CMakeRCCompiler.cmake;E:\MyOwn\CMakeProjects\OpenGLTest\OpenGL\Origin\glfw-3.3.9\build\CMakeFiles\3.19.0\CMakeSystem.cmake;E:\MyOwn\CMakeProjects\OpenGLTest\OpenGL\Origin\glfw-3.3.9\cmake_uninstall.cmake.in;E:\MyOwn\CMakeProjects\OpenGLTest\OpenGL\Origin\glfw-3.3.9\src\glfw3.pc.in;E:\MyOwn\CMakeProjects\OpenGLTest\OpenGL\Origin\glfw-3.3.9\src\glfw3Config.cmake.in;E:\MyOwn\CMakeProjects\OpenGLTest\OpenGL\Origin\glfw-3.3.9\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\MyOwn\CMakeProjects\OpenGLTest\OpenGL\Origin\glfw-3.3.9\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/MyOwn/CMakeProjects/OpenGLTest/OpenGL/Origin/glfw-3.3.9/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\SolftWareInstall\CMake\bin\cmake.exe -SE:/MyOwn/CMakeProjects/OpenGLTest/OpenGL/Origin/glfw-3.3.9 -BE:/MyOwn/CMakeProjects/OpenGLTest/OpenGL/Origin/glfw-3.3.9/build --check-stamp-file E:/MyOwn/CMakeProjects/OpenGLTest/OpenGL/Origin/glfw-3.3.9/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeCCompiler.cmake.in;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeCCompilerABI.c;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeCompilerIdDetection.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeDependentOption.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeDetermineCCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeDetermineCompileFeatures.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeDetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerABI.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerId.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeDetermineRCCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeDetermineSystem.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeFindBinUtils.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakePackageConfigHelpers.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeParseImplicitLinkInfo.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeRCCompiler.cmake.in;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeSystem.cmake.in;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeTestCCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeTestCompilerCommon.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeTestRCCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CheckIncludeFile.c.in;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CheckLibraryExists.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\IntelClang-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\IntelDPCPP-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\TI-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CompilerId\VS-10.vcxproj.in;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\FindDoxygen.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\FindThreads.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\GNUInstallDirs.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Internal\CheckSourceCompiles.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Internal\FeatureTesting.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\WriteBasicConfigVersionFile.cmake;E:\MyOwn\CMakeProjects\OpenGLTest\OpenGL\Origin\glfw-3.3.9\build\CMakeFiles\3.19.0\CMakeCCompiler.cmake;E:\MyOwn\CMakeProjects\OpenGLTest\OpenGL\Origin\glfw-3.3.9\build\CMakeFiles\3.19.0\CMakeRCCompiler.cmake;E:\MyOwn\CMakeProjects\OpenGLTest\OpenGL\Origin\glfw-3.3.9\build\CMakeFiles\3.19.0\CMakeSystem.cmake;E:\MyOwn\CMakeProjects\OpenGLTest\OpenGL\Origin\glfw-3.3.9\cmake_uninstall.cmake.in;E:\MyOwn\CMakeProjects\OpenGLTest\OpenGL\Origin\glfw-3.3.9\src\glfw3.pc.in;E:\MyOwn\CMakeProjects\OpenGLTest\OpenGL\Origin\glfw-3.3.9\src\glfw3Config.cmake.in;E:\MyOwn\CMakeProjects\OpenGLTest\OpenGL\Origin\glfw-3.3.9\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\MyOwn\CMakeProjects\OpenGLTest\OpenGL\Origin\glfw-3.3.9\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/MyOwn/CMakeProjects/OpenGLTest/OpenGL/Origin/glfw-3.3.9/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\SolftWareInstall\CMake\bin\cmake.exe -SE:/MyOwn/CMakeProjects/OpenGLTest/OpenGL/Origin/glfw-3.3.9 -BE:/MyOwn/CMakeProjects/OpenGLTest/OpenGL/Origin/glfw-3.3.9/build --check-stamp-file E:/MyOwn/CMakeProjects/OpenGLTest/OpenGL/Origin/glfw-3.3.9/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeCCompiler.cmake.in;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeCCompilerABI.c;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeCompilerIdDetection.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeDependentOption.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeDetermineCCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeDetermineCompileFeatures.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeDetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerABI.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerId.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeDetermineRCCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeDetermineSystem.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeFindBinUtils.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakePackageConfigHelpers.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeParseImplicitLinkInfo.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeRCCompiler.cmake.in;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeSystem.cmake.in;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeTestCCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeTestCompilerCommon.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CMakeTestRCCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CheckIncludeFile.c.in;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CheckLibraryExists.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\IntelClang-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\IntelDPCPP-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\TI-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\CompilerId\VS-10.vcxproj.in;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\FindDoxygen.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\FindThreads.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\GNUInstallDirs.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Internal\CheckSourceCompiles.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Internal\FeatureTesting.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;D:\SolftWareInstall\CMake\share\cmake-3.19\Modules\WriteBasicConfigVersionFile.cmake;E:\MyOwn\CMakeProjects\OpenGLTest\OpenGL\Origin\glfw-3.3.9\build\CMakeFiles\3.19.0\CMakeCCompiler.cmake;E:\MyOwn\CMakeProjects\OpenGLTest\OpenGL\Origin\glfw-3.3.9\build\CMakeFiles\3.19.0\CMakeRCCompiler.cmake;E:\MyOwn\CMakeProjects\OpenGLTest\OpenGL\Origin\glfw-3.3.9\build\CMakeFiles\3.19.0\CMakeSystem.cmake;E:\MyOwn\CMakeProjects\OpenGLTest\OpenGL\Origin\glfw-3.3.9\cmake_uninstall.cmake.in;E:\MyOwn\CMakeProjects\OpenGLTest\OpenGL\Origin\glfw-3.3.9\src\glfw3.pc.in;E:\MyOwn\CMakeProjects\OpenGLTest\OpenGL\Origin\glfw-3.3.9\src\glfw3Config.cmake.in;E:\MyOwn\CMakeProjects\OpenGLTest\OpenGL\Origin\glfw-3.3.9\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\MyOwn\CMakeProjects\OpenGLTest\OpenGL\Origin\glfw-3.3.9\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\MyOwn\CMakeProjects\OpenGLTest\OpenGL\Origin\glfw-3.3.9\build\ZERO_CHECK.vcxproj">
+      <Project>{F822E434-1F33-3234-BE67-BE9C6A94447B}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\MyOwn\CMakeProjects\OpenGLTest\OpenGL\Origin\glfw-3.3.9\build\examples\boing.vcxproj">
+      <Project>{7D9CC291-2A72-3C3D-A0E4-03FBC7161638}</Project>
+      <Name>boing</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\MyOwn\CMakeProjects\OpenGLTest\OpenGL\Origin\glfw-3.3.9\build\tests\clipboard.vcxproj">
+      <Project>{F0DC6702-7993-349D-8434-BB43C846D52E}</Project>
+      <Name>clipboard</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\MyOwn\CMakeProjects\OpenGLTest\OpenGL\Origin\glfw-3.3.9\build\tests\cursor.vcxproj">
+      <Project>{A32060B9-6DB1-3866-A7ED-119F51D8DA64}</Project>
+      <Name>cursor</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\MyOwn\CMakeProjects\OpenGLTest\OpenGL\Origin\glfw-3.3.9\build\tests\empty.vcxproj">
+      <Project>{6E58CC74-2018-3F0C-9591-B908FCA8DCAB}</Project>
+      <Name>empty</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\MyOwn\CMakeProjects\OpenGLTest\OpenGL\Origin\glfw-3.3.9\build\tests\events.vcxproj">
+      <Project>{497C6787-8C06-3D86-BCD8-448124269A23}</Project>
+      <Name>events</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\MyOwn\CMakeProjects\OpenGLTest\OpenGL\Origin\glfw-3.3.9\build\tests\gamma.vcxproj">
+      <Project>{D868DCEC-0245-38C6-8E5D-C4DE27FEE1F6}</Project>
+      <Name>gamma</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\MyOwn\CMakeProjects\OpenGLTest\OpenGL\Origin\glfw-3.3.9\build\examples\gears.vcxproj">
+      <Project>{61A3F5AA-2FD3-35A1-91B4-4BA8A8BC2933}</Project>
+      <Name>gears</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\MyOwn\CMakeProjects\OpenGLTest\OpenGL\Origin\glfw-3.3.9\build\src\glfw.vcxproj">
+      <Project>{CC37CC47-878B-3859-8FC6-97416F7DB135}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\MyOwn\CMakeProjects\OpenGLTest\OpenGL\Origin\glfw-3.3.9\build\tests\glfwinfo.vcxproj">
+      <Project>{E4FDFE0B-77C4-34ED-A165-D0552BE94F3F}</Project>
+      <Name>glfwinfo</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\MyOwn\CMakeProjects\OpenGLTest\OpenGL\Origin\glfw-3.3.9\build\examples\heightmap.vcxproj">
+      <Project>{5CA6BD2D-A7FD-3EB6-862F-CE840CEBDCC0}</Project>
+      <Name>heightmap</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\MyOwn\CMakeProjects\OpenGLTest\OpenGL\Origin\glfw-3.3.9\build\tests\icon.vcxproj">
+      <Project>{8ECFA5D4-775C-37E9-8F79-4C7FC668885F}</Project>
+      <Name>icon</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\MyOwn\CMakeProjects\OpenGLTest\OpenGL\Origin\glfw-3.3.9\build\tests\iconify.vcxproj">
+      <Project>{88FE681C-AB88-3404-9668-CB2EFD34657C}</Project>
+      <Name>iconify</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\MyOwn\CMakeProjects\OpenGLTest\OpenGL\Origin\glfw-3.3.9\build\tests\inputlag.vcxproj">
+      <Project>{042A3B20-3895-33C4-94F3-E82F77D1A9DE}</Project>
+      <Name>inputlag</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\MyOwn\CMakeProjects\OpenGLTest\OpenGL\Origin\glfw-3.3.9\build\tests\joysticks.vcxproj">
+      <Project>{84694671-1E22-34B4-8D9B-AFBF2C068758}</Project>
+      <Name>joysticks</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\MyOwn\CMakeProjects\OpenGLTest\OpenGL\Origin\glfw-3.3.9\build\tests\monitors.vcxproj">
+      <Project>{D359ACA0-274B-3B85-A413-B2274B421373}</Project>
+      <Name>monitors</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\MyOwn\CMakeProjects\OpenGLTest\OpenGL\Origin\glfw-3.3.9\build\tests\msaa.vcxproj">
+      <Project>{979002A3-2590-3F94-9E03-1505705E24DA}</Project>
+      <Name>msaa</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\MyOwn\CMakeProjects\OpenGLTest\OpenGL\Origin\glfw-3.3.9\build\examples\offscreen.vcxproj">
+      <Project>{3C1C7335-E02F-30F7-9347-AF4739E2E3B1}</Project>
+      <Name>offscreen</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\MyOwn\CMakeProjects\OpenGLTest\OpenGL\Origin\glfw-3.3.9\build\tests\opacity.vcxproj">
+      <Project>{EF2F7029-A125-3BE9-A8E1-59A01E302C7A}</Project>
+      <Name>opacity</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\MyOwn\CMakeProjects\OpenGLTest\OpenGL\Origin\glfw-3.3.9\build\examples\particles.vcxproj">
+      <Project>{ACD8DA38-8052-3BFB-AB2F-72C2888330FC}</Project>
+      <Name>particles</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\MyOwn\CMakeProjects\OpenGLTest\OpenGL\Origin\glfw-3.3.9\build\tests\reopen.vcxproj">
+      <Project>{144BC020-8BB2-312B-9A48-2593B6967791}</Project>
+      <Name>reopen</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\MyOwn\CMakeProjects\OpenGLTest\OpenGL\Origin\glfw-3.3.9\build\examples\sharing.vcxproj">
+      <Project>{60AE33DC-3C8A-3951-969B-94AE6A45AF49}</Project>
+      <Name>sharing</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\MyOwn\CMakeProjects\OpenGLTest\OpenGL\Origin\glfw-3.3.9\build\examples\simple.vcxproj">
+      <Project>{39F05B8A-11B4-3CF0-9BF0-E522EC5E55CB}</Project>
+      <Name>simple</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\MyOwn\CMakeProjects\OpenGLTest\OpenGL\Origin\glfw-3.3.9\build\examples\splitview.vcxproj">
+      <Project>{A25D7F22-B6AC-33F2-A35B-95A63538C4AB}</Project>
+      <Name>splitview</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\MyOwn\CMakeProjects\OpenGLTest\OpenGL\Origin\glfw-3.3.9\build\tests\tearing.vcxproj">
+      <Project>{F92EF4EB-258C-38C3-8AEC-8597458B1A05}</Project>
+      <Name>tearing</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\MyOwn\CMakeProjects\OpenGLTest\OpenGL\Origin\glfw-3.3.9\build\tests\threads.vcxproj">
+      <Project>{2801C591-02EF-33DB-9AFE-8E683156D709}</Project>
+      <Name>threads</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\MyOwn\CMakeProjects\OpenGLTest\OpenGL\Origin\glfw-3.3.9\build\tests\timeout.vcxproj">
+      <Project>{1B01121B-F6E5-35F1-B1CA-00B7383253E0}</Project>
+      <Name>timeout</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\MyOwn\CMakeProjects\OpenGLTest\OpenGL\Origin\glfw-3.3.9\build\tests\title.vcxproj">
+      <Project>{C77537EF-5B90-3894-9561-C3A104188CBF}</Project>
+      <Name>title</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\MyOwn\CMakeProjects\OpenGLTest\OpenGL\Origin\glfw-3.3.9\build\tests\triangle-vulkan.vcxproj">
+      <Project>{EEBB5CBC-BCD2-39D5-8758-BD9C5B647156}</Project>
+      <Name>triangle-vulkan</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\MyOwn\CMakeProjects\OpenGLTest\OpenGL\Origin\glfw-3.3.9\build\examples\wave.vcxproj">
+      <Project>{F511010E-5724-3E27-A16C-E67DA49CB58A}</Project>
+      <Name>wave</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\MyOwn\CMakeProjects\OpenGLTest\OpenGL\Origin\glfw-3.3.9\build\tests\windows.vcxproj">
+      <Project>{03225FEB-0E2D-34E8-B8FC-944A7F10A781}</Project>
+      <Name>windows</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
